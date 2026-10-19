@@ -1,0 +1,11 @@
+@BrasilApiClient_HostAddress = http://localhost:5002
+
+GET {{BrasilApiClient_HostAddress}}/cep/01001000
+Accept: application/json
+
+###
+
+GET {{BrasilApiClient_HostAddress}}/cnpj/33000167000101
+Accept: application/json
+
+###
